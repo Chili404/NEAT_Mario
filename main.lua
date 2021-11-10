@@ -138,6 +138,7 @@ function Population:Create()
     
 end
 
+--Testing
 net = NeuralNetwork:Create(3,3,2)
 net:initialize()
 addend = Matrix:Create(3,1)
